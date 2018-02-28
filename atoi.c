@@ -24,7 +24,7 @@
 int main(int argc,char **argv)//asking for command line input
 {
 	int num;
-	if(argc<2)//checking for the valid no. of inputes i.e 2 in this case
+	if(argc!=2)//checking for the valid no. of inputes i.e 2 in this case
 	{
 		printf("usage:./a.out string\n");
 		return 0;
